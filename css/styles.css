@@ -1,0 +1,82 @@
+*{
+    background-color: pink;
+}
+
+/*Estilo del header*/
+.bg-header {background-image: url(../assets/fondoheader.jpg);
+    height: 100px;
+    font-family: "Playwrite ES Deco", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-align: center;
+    font-size: 4vw;
+}
+
+/*Estilo navbar*/
+.navbar {padding: 0px;
+padding-bottom: 5px;
+}
+
+.fontfamilynavbar {
+      font-family: "Playwrite DE Grund", cursive;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+color: black;
+font-size: 1em;}
+
+/*H1*/
+.h1index {font-family: "Playwrite ES Deco", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*H1 de las demas paginas html*/
+.h1recetas {font-family: "Playwrite ES Deco", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+/*Carrousel*/ 
+.carrouselwidth {width: 30%;
+}
+
+.carrouselwidhtcenter {display: flex;
+justify-content: center;}
+
+
+
+/*Estilo de los h2*/ 
+
+.estiloh2{font-family: "Playwrite ES Deco", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-align: left;
+font-size: 2vw; 
+}
+
+/*Caja de las fotos*/
+
+ .divcontainer {display: flex;}
+
+
+
+/*Footer*/
+footer img {width: 3%;
+  border-radius: 50%;
+  }
+  
+  footer{padding-top: 100px;}
+
+  
