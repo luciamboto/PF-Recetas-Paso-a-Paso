@@ -3,7 +3,8 @@
 }
 
 /*Estilo del header*/
-.bg-header {background-image: url(../assets/fondoheader.jpg);
+.bg-header {background-image: url(../assets/fondoheader2.jpg);
+  background-size: auto;
     height: 100px;
     font-family: "Playwrite ES Deco", cursive;
     font-optical-sizing: auto;
@@ -47,14 +48,25 @@ font-size: 1em;}
 }
 
 
-/*Carrousel*/ 
-.carrouselwidth {width: 30%;
+/*Card*/
+.containercards {display: flex;
+justify-content: space-evenly;
 }
+.card-body {background-color: white;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+color: black;
+font-size: 1em;
+text-align: center;
 
-.carrouselwidhtcenter {display: flex;
-justify-content: center;}
+}
+.card-text {background-color: white}
+.card-title {background-color: white;}
 
-
+.btn {background-color: rgb(83, 13, 116);
+text-align: center;}
 
 /*Estilo de los h2*/ 
 
