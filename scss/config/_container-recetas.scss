@@ -1,0 +1,30 @@
+/* Container recetas */
+.section-recetas {
+  display: flex;
+.containerimg {
+    width: 30vw;
+    margin-left: 2vw;
+    img {
+      width: 100%;
+    }
+    
+  }
+  .lista-ingredientes {
+    font-size: 1.2vw;
+    width: 22vw;
+  }
+  .cajapasos {
+    font-size: 1.2vw;
+    width: 50vw;
+    margin-right: 2vw;
+  }
+  
+}
+  
+  .section1 {
+    padding-bottom: 4vw;
+  }
+  
+  
+  
+  

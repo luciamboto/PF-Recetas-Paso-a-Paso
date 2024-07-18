@@ -1,0 +1,66 @@
+/*Media queries*/
+/* Tablet 
+
+@media (max-width: 768px) 
+No agregue media queries para tablet porque no lo crei necesario*/
+
+/* Mobile, en un principio habia elegido 320px pero al verlo en mi celular que no se adaptaba tome esta medida un poco mas grande, no se si es correcto*/
+@media (max-width: 480px) {
+
+  /*Index */
+  .bg-header {
+    font-size: 5vw;
+  }
+
+  .h1index {
+    font-size: 4vw;
+    padding-top: 5vw;
+  }
+
+  .containercards {
+    display: block;
+
+  }
+
+  article {
+    margin-left: 40vw;
+    margin-bottom: 5vw;
+  }
+
+  .ultimoarticle {
+    margin-bottom: 0px;
+  }
+
+  /*Paginas html*/
+  .h1recetas {
+    font-size: 4vw;
+  }
+
+  .section-recetas {
+    display: flex;
+    flex-wrap: wrap;
+
+    .containerimg {
+      margin-left: 20vw;
+    }
+
+    .lista-ingredientes {
+      font-size: 2vw;
+      width: 50vw;
+    }
+
+    .cajapasos {
+      font-size: 2.2vw;
+      width: 100vw;
+      margin-top: 2vw;
+    }
+
+  }
+
+
+
+
+  .h2recetas {
+    font-size: 3vw;
+  }
+}

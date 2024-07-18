@@ -1,0 +1,15 @@
+/*H1/h2 de las demas paginas html*/
+.h1recetas {
+    font-family: $grund;
+    text-align: center;
+    @include padding (3vw, 4.5vw);
+    font-size: 3vw;
+  }
+  
+  .h2recetas {
+    font-family: $grund;
+    text-align: center;
+    font-size: 2.5vw;
+    padding-bottom: 3vw;
+  
+  }

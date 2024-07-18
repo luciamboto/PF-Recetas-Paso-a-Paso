@@ -1,0 +1,11 @@
+
+/*NavBar*/ 
+.navbar {
+   @include padding (0px, 5px);
+    .fontfamilynavbar {
+      font-family: $grund;
+      color: black;
+      font-size: 1.8vw;
+    }
+  }
+  
