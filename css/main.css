@@ -1,13 +1,13 @@
 * {
   padding: 0;
   margin: 0;
-  background-color: pink;
+  background-color: rgb(248, 212, 218);
 }
 
 .bg-header {
   background-image: url(../assets/fondoheader2.jpg);
   background-size: 10% auto;
-  font-family: "Playwrite DE Grund", sans-serif;
+  font-family: "Playwrite ES Deco", sans-serif;
   text-align: center;
   font-size: 4.5vw;
 }
@@ -24,15 +24,15 @@
 }
 
 /*H1*/
-.h1index {
-  font-family: "Playwrite DE Grund", sans-serif;
+.recetasindex {
+  font-family: "Playwrite ES Deco", sans-serif;
   text-align: center;
   padding-top: 3vw;
   padding-bottom: 4vw;
   font-size: 3.5vw;
 }
 
-.h2index {
+.recetas2index {
   font-family: "Playwrite DE Grund", sans-serif;
   text-align: center;
   font-size: 2vw;
@@ -77,19 +77,25 @@
 }
 
 /*H1/h2 de las demas paginas html*/
-.h1recetas {
-  font-family: "Playwrite DE Grund", sans-serif;
+.recetas {
+  font-family: "Playwrite ES Deco", sans-serif;
   text-align: center;
   padding-top: 3vw;
   padding-bottom: 4.5vw;
   font-size: 3vw;
 }
 
-.h2recetas {
+.cajarecetas {
   font-family: "Playwrite DE Grund", sans-serif;
-  text-align: center;
-  font-size: 2.5vw;
-  padding-bottom: 3vw;
+  display: flex;
+  justify-content: center;
+}
+.cajarecetas .recetasitem {
+  width: 23vw;
+  display: flex;
+  justify-content: center;
+  border: 0.3vw solid #ffffff;
+  font-size: 2vw;
 }
 
 /* Container recetas */
@@ -133,33 +139,46 @@ footer a {
 }
 
 /*Media queries*/
-/* Tablet 
-
-@media (max-width: 768px) 
-No agregue media queries para tablet porque no lo crei necesario*/
-/* Mobile, en un principio habia elegido 320px pero al verlo en mi celular que no se adaptaba tome esta medida un poco mas grande, no se si es correcto*/
 @media (max-width: 480px) {
   /*Index */
   .bg-header {
     font-size: 5vw;
   }
-  .h1index {
-    font-size: 4vw;
-    padding-top: 5vw;
+  .recetasindex {
+    font-size: 5vw;
+  }
+  .recetas2index {
+    font-size: 3vw;
   }
   .containercards {
-    display: block;
+    flex-direction: column;
+  }
+  .containercards .card {
+    width: 60vw;
+  }
+  .containercards .card .card-body .card-title {
+    font-size: 4vw;
+  }
+  .containercards .card .card-body .card-text {
+    font-size: 2.3vw;
+  }
+  .containercards .card .card-body .cajavermas a {
+    font-size: 2.2vw;
   }
   article {
-    margin-left: 40vw;
+    margin-left: 20vw;
     margin-bottom: 5vw;
   }
   .ultimoarticle {
     margin-bottom: 0px;
   }
   /*Paginas html*/
-  .h1recetas {
+  .recetas {
     font-size: 4vw;
+  }
+  .cajarecetas .recetasitem {
+    width: 26vw;
+    font-size: 3.5vw;
   }
   .section-recetas {
     display: flex;
@@ -177,7 +196,11 @@ No agregue media queries para tablet porque no lo crei necesario*/
     width: 100vw;
     margin-top: 2vw;
   }
-  .h2recetas {
+  footer img {
+    width: 6vw;
+    border-radius: 50%;
+  }
+  footer a {
     font-size: 3vw;
   }
 }

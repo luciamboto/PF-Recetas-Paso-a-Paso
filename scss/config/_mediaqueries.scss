@@ -1,10 +1,5 @@
 /*Media queries*/
-/* Tablet 
 
-@media (max-width: 768px) 
-No agregue media queries para tablet porque no lo crei necesario*/
-
-/* Mobile, en un principio habia elegido 320px pero al verlo en mi celular que no se adaptaba tome esta medida un poco mas grande, no se si es correcto*/
 @media (max-width: 480px) {
 
   /*Index */
@@ -12,18 +7,41 @@ No agregue media queries para tablet porque no lo crei necesario*/
     font-size: 5vw;
   }
 
-  .h1index {
-    font-size: 4vw;
-    padding-top: 5vw;
+  .recetasindex {
+    font-size: 5vw;
+  }
+
+  .recetas2index {
+    font-size: 3vw;
   }
 
   .containercards {
-    display: block;
+    flex-direction: column;
 
+    .card {
+      width: 60vw;
+
+      .card-body {
+        .card-title {
+
+          font-size: 4vw;
+        }
+
+        .card-text {
+          font-size: 2.3vw;
+        }
+
+        .cajavermas a {
+
+          font-size: 2.2vw;
+
+        }
+      }
+    }
   }
 
   article {
-    margin-left: 40vw;
+    margin-left: 20vw;
     margin-bottom: 5vw;
   }
 
@@ -32,8 +50,15 @@ No agregue media queries para tablet porque no lo crei necesario*/
   }
 
   /*Paginas html*/
-  .h1recetas {
+  .recetas {
     font-size: 4vw;
+  }
+
+  .cajarecetas {
+    .recetasitem {
+      width: 26vw;
+      font-size: 3.5vw;
+    }
   }
 
   .section-recetas {
@@ -54,13 +79,16 @@ No agregue media queries para tablet porque no lo crei necesario*/
       width: 100vw;
       margin-top: 2vw;
     }
-
   }
 
+  footer {
+    img {
+      width: 6vw;
+      border-radius: 50%;
+    }
 
-
-
-  .h2recetas {
-    font-size: 3vw;
+    a {
+      font-size: 3vw;
+    }
   }
 }
